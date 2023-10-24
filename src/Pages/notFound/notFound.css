@@ -1,0 +1,10 @@
+.background{
+    background-image: url('../../assets/3912204_2055216.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y:35%;
+    min-height: 90vh;
+}
+.error-template {padding: 40px 15px;text-align: center;}
+.error-actions {margin-top:15px;margin-bottom:15px;}
+.error-actions .btn { margin-right:10px; }

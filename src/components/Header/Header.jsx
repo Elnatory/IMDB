@@ -4,7 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 import "./Header.css";
 import { Link, NavLink } from "react-router-dom";
 import React from "react";
-import Home from './../../Pages/Home/Home';
+import Home from '../../Pages/Home/Home';
 import { useSelector } from "react-redux";
 const Header = () => {
   const favorites = useSelector((state) => state.favorites.favorite);
